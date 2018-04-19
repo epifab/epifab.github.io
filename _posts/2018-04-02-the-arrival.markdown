@@ -2,6 +2,7 @@
 layout: post
 title: The arrival
 date: 2018-04-02 13:32:20 +0300
+img: jodhpur.jpg
 tags: [Travel, India]
 ---
 One of the good sides of walking in Jodhpur, is that you can basically fart anywhere on the street and nobody will ever notice. The sun hits hard, and the atmosphere is dry and dusty. The smell ranges from intense to extreme: a unique blend of spices, excrement, garbage and smog. If you’re one of those farting English club goers you’ve nothing to worry about.
