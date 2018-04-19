@@ -2,7 +2,7 @@
 layout: post
 title: Tales of India
 date: 2018-04-05 13:32:20 +0300
-img: jodhpur.jpg
+img: # No image
 tags: [Travel, India]
 ---
 Jodhpur, four friends, four European tourists, pale and tired from an over 20 hours trip. Not much after they’ve landed from another dimension, they’re wandering, immerse in the chaos and guided by a local randomly met on the street.
