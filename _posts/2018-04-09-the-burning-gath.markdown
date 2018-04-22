@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The burning Gath
+title: The burning gath
 date: 2018-04-09 13:32:20 +0300
 img: the-burning-gath.jpg
 tags: [India, Life]

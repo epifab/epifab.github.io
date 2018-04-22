@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tales of india
+title: Tales of India
 date: 2018-04-05 13:32:20 +0300
 img: jodhpur.jpg
 tags: [Travel, India]
