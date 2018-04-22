@@ -1,0 +1,42 @@
+---
+layout: post
+title: Folklore
+date: 2018-04-02 13:32:20 +0300
+img: jodhpur-folk-festival-1.jpg
+tags: [Travel, India]
+---
+One of the good sides of walking in Jodhpur, is that you can basically
+fart anywhere on the street and nobody will ever notice. The sun hits
+hard, and the atmosphere is dry and dusty. The smell ranges from intense
+to extreme: a unique blend of spices, excrement, garbage and smog.
+If you’re one of those farting English club goers you’ve nothing to
+worry about.
+
+The centre of Jodhpur is a intricate maze of very narrow roads.
+Rickshaws and motorbikes wave in and out at crazy speed honking
+constantly. The street knows no rule except one, figured out
+only later in my trip: the biggest and fastest vehicle has precedence.
+As there are no sidewalks (as you would expect) if you’re on foot you’re
+simply out of luck, which will turn even the shortest walk into a
+potential nightmare.
+
+On a normal day, streets are very busy, with thousands of market stands
+selling fruit, veg and cheese (no meet, no fish), local clothes, fabrics
+and various accessories. Local people immerse in their surprisingly
+chilled daily lives, either when they’re rushing somewhere or they’re
+just hanging on the street, sitting outside of their blue cute houses,
+until the sun is gone and beyond;
+until suddenly, an explosion of colours and sound invades the street.
+An indian traditional folk festival takes over all night long, with
+ladies dancing tirelessly on bands with drums and trumpets.
+Men wave a 100 rupies note above their chosen dancer's head,
+showing admiration to her beauty.
+
+Tradition is everywhere, and you will get involved, somehow, overwhelmed
+by a pure, honest and refreshing feeling. Naive happiness.
+Those smiling eyes, full of hopes and sentiment.
+The same eyes of Ganhesh, 20 year old from Nepal, who works at our
+guesthouse 7 days a week, 12 hours a day.
+If you had to choose an image to take with you, let it be those eyes.
+
+![Jodhpur Folk Festival]({{site.baseurl}}/assets/img/jodhpur-folk-festival-2.jpg)

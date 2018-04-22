@@ -6,7 +6,7 @@ img: # No image
 tags: [India, Life]
 ---
 Ganga river,  
-Earth,
+Earth,  
 Solar System,  
 Milky Way.
 
