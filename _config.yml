@@ -1,6 +1,6 @@
 title: Life and other stuff, by epifab
 description: > # this means to ignore newlines until "baseurl:"
-  Epifab's blog about travelling, computer science, music and life
+  Epifab's blog about travelling, computer science, music and other stuff
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
