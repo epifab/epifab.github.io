@@ -2,12 +2,12 @@
 layout: post
 title: West coast road trip
 date: 2018-04-23 00:00:00 +0000
-img:
+img: west-coast-road-trip.jpg
 youtube: 2xNM5pe4VFE
 tags: [California]
 ---
 
-San francisco to joshua tree, via state route 1.
+State Route 1, San francisco to joshua via Big Sur.
 
 Music by mindline.
 
