@@ -7,7 +7,7 @@ youtube: 2xNM5pe4VFE
 tags: [California]
 ---
 
-San francisco to joshua tree, through the big sur.
+San francisco to joshua tree, via state route 1.
 
 Music by mindline.
 
