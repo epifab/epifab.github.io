@@ -1,5 +1,9 @@
+.article-page {
+    width: 100%;
+}
 
 .videowrapper {
+    margin-top: 10px;
     float: none;
     clear: both;
     width: 100%;
