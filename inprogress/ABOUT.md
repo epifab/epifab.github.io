@@ -49,9 +49,9 @@ Well, the point is, you cannot know until you know.
 ## Why??
 
 A wise man once told me:
-> if you know, you have a choice; if have a choice, you're a free man.
+> if you know, you have a choice; if you have a choice, you're a free man.
 
-I don't actually recall where did I take it from or if I just made it up.
+I don't actually recall where I took it from or if I just made it up.
 The point is that it's true.  
 You can be perfectly happy with whatever you already know,
 and dismiss everything else because it sounds too complicate.  
@@ -121,8 +121,8 @@ def encode[T](value: List[T], tEnc: T => String): String =
   "[" + value.map(tEnc).mkString(",") + "]"
 ```
 
-The intuition is that given a list of `T` and a `JsonEncoder` for `T`,
-then I can build a `JsonEncoder[List[T]]`.
+The intuition is that given a list of `T` and an `encode` function from `T -> String`,
+then I can build an `encode` function from `List[T] -> String`.
 
 This complicates things a little, because now I need to explicitly pass a `JsonEncoder[T]`
 to the list encoder: 
@@ -176,7 +176,9 @@ object JsonEncoder {
 }
 ```
 
-There's a bit more plumbing here, but we can work on it:
+It's a bit verbose, but we can work on it.
+Since the `JsonEncoder` has only one *single abstract method*, it qualifies as a *functional interface* according to [Java 8 specs](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html). 
+Hence we can create new instances by simply implementing a lambda expression `T -> String` for the `encode` method:
 
 ```scala
 trait JsonEncoder[T] {
