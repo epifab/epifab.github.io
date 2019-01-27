@@ -87,8 +87,10 @@ object JsonEncoder {
 You can actually use this:
 
 ```scala
-JsonEncoder.encode(3)
-JsonEncoder.encode(4.0)
+scala> JsonEncoder.encode(3)
+String = 3
+scala> JsonEncoder.encode(4.0)
+String = 4.0
 ```
 
 Cool, I have a Json encoder capable of dealing with integers and doubles.  
@@ -263,13 +265,21 @@ printString()
 The answer is: it does not compile.  
 The compiler is in fact unable to find an implicit value for the type `String`.
 
-Another important thing about implicits is that you can build an implicit value
-from other implicit values:
+Another important feature around implicits is the ability of build
+an implicit value from other implicit values:
+
+```scala
+implicit def magicString(implicit number: Int): String = number.toString + "!"
+```
+
+The `magicString` function takes an implicit parameter of type `Int`
+and turns it into a `String`.  
+Since `magicString` is also marked as implicit,
+the compiler will use it to build implicit values of type `String`:
 
 ```scala
 implicit val magicNumber: Int = 3
 
-// Builds an implicit of type String from an implicit of type Int
 implicit def magicString(implicit number: Int): String = number.toString + "!"
 
 def printString()(implicit string: String) = println(string)
@@ -277,9 +287,57 @@ def printString()(implicit string: String) = println(string)
 printString()
 ```
 
-The code above compiles and prints "3!" as we would expect.
+As we would expect, the code above will print "3!"
 
-How is this going to help us with our `JsonEncoder`?
+The implicit resolution in Scala is extremely powerful,
+especially when combined with generics:
+
+```scala
+implicit def magicList[T](implicit magicT: T): List[T] = List(magicT)
+```
+
+Exactly like the `magicString` function discussed above,
+`magicList` can now be used by the compiler to build implicit
+values of type `List[T]` based on implicits of type `T`.
+
+Let's consider the following code:
+
+```scala
+implicit val magicInt: Int = 3
+implicit def magicList[T](implicit magicT: T): List[T] = List(magicT)
+
+def printMagic[T]()(implicit t: List[List[Int]]) = println(t)
+
+printMagic()
+```
+
+The `printMagic` function in this case requires an implicit of type `List[List[Int]]`.
+We have never directly defined such an implicit value,
+however the compiler is able to calculate it
+by recursively applying the `magicList` function:
+
+```scala
+magicList(magicList(magicNumber))  // List(List(3))
+```
+
+Powerful, right?
+
+Now let's go back to our `JsonEncoder`.
+First, let's make the encoders for `Int` and `Double` implicit:
+
+```scala
+implicit val intEncoder: JsonEncoder[Int] = (t: Int) => t.toString
+implicit val doubleEncoder: JsonEncoder[Double] = (t: Double) => t.toString
+```
+
+Now, we can define our `listEncoder`:
+
+```scala
+implicit def listEncoder[T](implicit tEncoder: JsonEncoder[T]): JsonEncoder[List[T]] = 
+  (ts: List[T]) => "[" + ts.map(tEncoder.encode).mkString(",") + "]"
+```
+
+Finally the compiler has everything it needs to encode numbers and lists:
 
 ```scala
 trait JsonEncoder[T] {
@@ -299,10 +357,11 @@ object JsonEncoder {
 }
 ```
 
-Amazingly, our users can now magically do something like:
-
 ```scala
-JsonEncoder.encode(List(1, 2, 3))
+scala> JsonEncoder.encode(List(1, 2, 3))
+res1: String = [1,2,3]
+scala> JsonEncoder.encode(List(List(1, 2), List(3, 4)))
+res2: String = [[1,2],[3,4]]
 ```
 
 What we just implemented is an example of a type class.
