@@ -352,8 +352,6 @@ What we just implemented is an example of a type class.
 
 ## Conclusion
 
-# Conclusion
-
 With this post I hope I could shed some light on an important design pattern and its implementation in Scala.
 I hope this helped a little to clear some hostility and diffidence about Scala and the functional world.
 There is a lot more to be said around implicits, especially about anti-patterns and how they have been abused,
