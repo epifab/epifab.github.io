@@ -41,9 +41,14 @@ blockquote {
 }
 
 code {
-    font-size: 90%;
+    color: #116;
 }
 
 pre {
     padding: 15px;
+    font-size: 90%;
+}
+
+pre .err {
+    background-color: transparent;
 }
