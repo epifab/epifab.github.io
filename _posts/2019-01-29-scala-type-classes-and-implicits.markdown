@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scala: Type classes and Implicits
+title: Scala, Type classes and Implicits
 date: 2019-01-29 00:00:00 +0000
 tags: [Computer Science, Scala, Type Class, Implcits]
 ---
