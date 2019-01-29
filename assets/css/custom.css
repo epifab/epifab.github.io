@@ -37,4 +37,13 @@ blockquote {
 
 .highlighter-rouge {
     border: 0;
+    padding: 0;
+}
+
+code {
+    font-size: 90%;
+}
+
+pre {
+    padding: 15px;
 }
