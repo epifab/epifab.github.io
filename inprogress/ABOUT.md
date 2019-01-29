@@ -1,5 +1,6 @@
-# Scala, type classes and the implicit
-What is this stuff, and why would I care?
+# Scala, *implicits* and *type classes*
+
+What is this, and why would I care?
 
 
 ## Introduction
@@ -357,11 +358,13 @@ What we just implemented is an example of a type class.
 
 ## Conclusion
 
-With this post I hope I could shed some light on an important design pattern and its implementation in Scala.
+With this post I hope I could shed some light on an important design pattern and its implementation in Scala.  
 I hope this helped a little to clear some hostility and diffidence about Scala and the functional world.
+
 There is a lot more to be said around implicits, especially about anti-patterns and how they have been abused,
 making some Scala code fragile, difficult to understand and debug.
-As one of my colleagues once said about the subject: "From great power comes great responsibilities."
+
+As one of my colleagues once said about the subject: "From great power comes great responsibilities."  
 You have the power now, use it responsibly.
 
 
