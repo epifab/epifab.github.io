@@ -23,7 +23,7 @@ And that's fair enough, because maybe it wouldn't be the best way after all, rig
 Well, the point is, you cannot know until you know.
 
 
-## Knoledge -> Choice -> Freedom
+### Knoledge -> Choice -> Freedom
 
 A wise man once told me:
 > if you know, you have a choice; if you have a choice, you're a free man.
@@ -268,6 +268,9 @@ sum("the magic string is: ")
 
 As we would expect, the code above will print "the magic string is: 3!"
 
+
+### Implicit def and generics
+
 The implicit resolution in Scala is extremely powerful,
 especially when combined with generics:
 
@@ -300,6 +303,9 @@ magicList(magicList(magicNumber))  // List(List(3))
 ```
 
 Powerful, right?
+
+
+### Type class in practise
 
 Now let's go back to our `JsonEncoder`.
 First, let's make our encoder instances implicit:
@@ -355,6 +361,7 @@ Compilation error: could not find an implicit for JsonEncoder[String]
 ```
 
 What we just implemented is an example of a type class.
+
 
 ## Conclusion
 
