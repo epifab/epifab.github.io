@@ -42,11 +42,11 @@ blockquote {
 
 code {
     color: #116;
+    font-size: 75%;
 }
 
 pre {
     padding: 15px;
-    font-size: 75%;
 }
 
 pre .err {
