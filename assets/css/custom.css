@@ -24,3 +24,8 @@
 .pagination-wrapper {
     width: 100%
 }
+
+.post-title {
+    line-height: 1.2!important;
+    margin-bottom: 10px!important;
+}
