@@ -9,7 +9,7 @@ Some of the people out there will throw at you words such as "endofunctors", "co
 You might feel like you need a PHD in category theory.  
 You might feel lost, confused and frustrated.
 
-There's a simple solution to this. Have you ever heard of Kotlin for example?  
+There's a simple solution to this. Kotlin, for example.  
 Concise, expressive and elegant, pleasant to read and write.  
 It's a bit like Scala, but without its superpowers.  
 Functions are still first class citizens, but you cannot possibly do things in a certain way.  
