@@ -1,4 +1,8 @@
-# Implicitly
+# Scala, type classes and the implicit
+What is this stuff, and why would I care?
+
+
+## Introduction
 
 It's becoming increasingly frequent to meet other fellow developers 
 who refers to Scala and its community with adjectives and nouns such as "bonkers", "for crazies", "overcomplicate".
@@ -17,7 +21,8 @@ And that's fair enough, because maybe it wouldn't be the best way after all, rig
 
 Well, the point is, you cannot know until you know.
 
-## What??
+
+## Knoledge -> Choice -> Freedom
 
 A wise man once told me:
 > if you know, you have a choice; if you have a choice, you're a free man.
