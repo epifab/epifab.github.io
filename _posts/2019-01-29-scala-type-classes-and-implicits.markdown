@@ -74,11 +74,11 @@ object JsonEncoder {
 
 You can actually use this:
 
-```scala
+```
 scala> JsonEncoder.encode(3)
-res0: String = 3
+String = 3
 scala> JsonEncoder.encode(4.0)
-res1: String = 4.0
+String = 4.0
 ```
 
 Cool, I have a Json encoder capable of dealing with integers and doubles.  
@@ -356,7 +356,7 @@ object JsonEncoder {
 
 Amazingly, everything works as expected:
 
-```scala
+```
 scala> JsonEncoder.encode(List(1, 2, 3))
 String = [1,2,3]
 scala> JsonEncoder.encode(List(List(1, 2), List(3, 4)))
