@@ -341,14 +341,25 @@ Amazingly, everything works as expected:
 
 ```scala
 scala> JsonEncoder.encode(List(1, 2, 3))
-res0: String = [1,2,3]
+String = [1,2,3]
 scala> JsonEncoder.encode(List(List(1, 2), List(3, 4)))
-res1: String = [[1,2],[3,4]]
+String = [[1,2],[3,4]]
 scala> JsonEncode.encode("hello world!")
 Compilation error: could not find an implicit for JsonEncoder[String]
 ```
 
 What we just implemented is an example of a type class.
+
+## Conclusion
+
+# Conclusion
+
+With this post I hope I could shed some light on an important design pattern and its implementation in Scala.
+I hope this helped a little to clear some hostility and diffidence about Scala and the functional world.
+There is a lot more to be said around implicits, especially about anti-patterns and how they have been abused,
+making some Scala code fragile, difficult to understand and debug.
+As one of my colleagues once said about the subject: "From great power comes great responsibilities."
+You have the power now, use it responsibly.
 
 
 ### References 
