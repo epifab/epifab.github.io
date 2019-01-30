@@ -100,9 +100,9 @@ object JsonEncoder {
 
 Beautiful right? Not really.  
 There are at least 3 problems:
-1) code duplication: the two methods body are identical
-2) everytime we add an encoder for a new type `T`, we'll also have to add a new `encode` method for `List[T]`
-3) (and most importantly) this code does not compile because of type erasure
+1. code duplication: the two methods body are identical
+2. everytime we add an encoder for a new type `T`, we'll also have to add a new `encode` method for `List[T]`
+3. (and most importantly) this code does not compile because of type erasure
 
 One solution that comes to my mind is to use generics and have something like:  
 
@@ -235,11 +235,11 @@ The code above will return 5.
 
 How is it possible? Let's have a closer look line by line:
 
-1) `implicit val magicNumber: Int = 3`  
+1. `implicit val magicNumber: Int = 3`  
    declares an implicit value for the type `Int`. 
-2) `def sum(aNumber: Int)(implicit number: Int) = aNumber + anotherNumber`  
+2. `def sum(aNumber: Int)(implicit number: Int) = aNumber + anotherNumber`  
    declares a function that takes two numbers (one explicit and one implicit) and sums them 
-3) `sum(2)`  
+3. `sum(2)`  
    invokes the function by only passing the first parameter,
    the compiler will figure out the value for the implicit one 
 
