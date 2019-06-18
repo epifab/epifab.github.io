@@ -11,10 +11,25 @@ tags: [Computer Science, Scala, Graal, JVM]
 At the Scala Days conference in Lausanne this year there were a few interesting talks,
 and no, I am not talking about Shapeless for Scala 3.
 
-The first talk that I found quite interesting was about deploying a Scala application in Google Cloud Run 
-([a managed compute platform that automatically scales your stateless containers](https://cloud.google.com/run/))
-by James Ward and Josh Suereth.  
-One of the main concern about serverless and JVM languages is around cold start and performances.
+The first talk that I found quite interesting was titled 
+*Serverless Scala - Functions as SuperDuperMicroServices* 
+by *James Ward* and *Josh Suereth*.
+
+The two speakers (from Google) had an interesting take on the evolution
+of the interpreter pattern in Scala 
+from free monads to tagless final to Zio 
+to the conquer of Mars in the years to come
+until the day the scala community will figure out the definitive approach.
+
+It was interesting to me how the interpreter pattern could actually be used to share 
+responsibilities within large teams by having a stream in charge of
+the core domain logic, one in charge of the command line interpreter,
+one in charge of the web API interpreter and so on
+by sharing the same interface and the same core logic.
+
+The main topic of the talk was (as per title) about deploying serverless Scala application
+to Google Cloud Run. 
+The top one issue with serverless JVM applications is surely around cold start and performances.
 Surprisingly (at least for me) there is a "simple" answer to this problem: GraalVM.
 
 The idea is ahead-of-time compilation to produce a standalone executable
