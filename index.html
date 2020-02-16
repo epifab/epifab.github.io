@@ -13,7 +13,7 @@ layout: main
       <a href="{{post.url | prepend: site.baseurl}}">
         {% if post.subtitle %}
           {{post.subtitle}}
-        {% else %}}
+        {% else %}
           {{post.content | strip_html | truncatewords: 15}}
         {% endif %}
       </a>
