@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mekong River, day 13
+title: Mekong River, day 13 - The purgatory
 subtitle: Diaries from South East Asia
 date: 2020-03-16 00:00:00 +0000
 img: mekong-river.jpg

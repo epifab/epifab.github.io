@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Luang Prabang, day 22
+title: Luang Prabang, day 22 - Saudade
 subtitle: Diaries from South East Asia
 date: 2020-03-25 00:00:00 +0000
 tags: [Travelling]

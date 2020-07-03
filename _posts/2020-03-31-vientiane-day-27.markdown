@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vientiane, day 27
+title: Vientiane, day 27 - Rocket man!
 subtitle: Diaries from South East Asia
 youtube: DtVBCG6ThDk
 date: 2020-03-31 00:00:00 +0000

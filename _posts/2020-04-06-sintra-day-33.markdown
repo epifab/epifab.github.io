@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sintra, day 33
+title: Sintra, day 33 - Back to life
 subtitle: Diaries from South East Asia
 date: 2020-04-06 00:00:00 +0000
 tags: [Travelling]
