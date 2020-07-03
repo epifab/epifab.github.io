@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diary from South East Asia
-subtitle: Chiang Rai, day 12
+title: Chiang Rai, day 12
+subtitle: Diaries from South East Asia
 date: 2020-03-15 00:00:00 +0000
 tags: [Travelling]
 ---

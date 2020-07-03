@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Diary from South East Asia
-subtitle: Vientiane, day 27
+title: Vientiane, day 27
+subtitle: Diaries from South East Asia
 date: 2020-03-31 00:00:00 +0000
 tags: [Travelling]
 ---
