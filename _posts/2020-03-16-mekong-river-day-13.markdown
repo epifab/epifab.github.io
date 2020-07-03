@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mekong River, day 13 - The purgatory
-subtitle: Diaries from South East Asia
+title: A dream named Mekong
+subtitle: Diaries from South East Asia - day 13
 date: 2020-03-16 00:00:00 +0000
 img: mekong-river.jpg
 tags: [Travelling]
