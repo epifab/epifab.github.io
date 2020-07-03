@@ -2,6 +2,7 @@
 layout: post
 title: Vientiane, day 27
 subtitle: Diaries from South East Asia
+youtube: DtVBCG6ThDk
 date: 2020-03-31 00:00:00 +0000
 tags: [Travelling]
 ---
