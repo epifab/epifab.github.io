@@ -9,7 +9,7 @@ tags: [Travelling]
 Luang Prabang, day 22.
 
 Homesick is a pain that I am used to.  
-It hits me every single time my dad drives me to the airport in my own town,
+It hits me every single time my dad drives me to the airport in my home town,
 where a brutal one way flight to London awaits.
 
 Homesick is a grief, everybody deals with it in a different way.
