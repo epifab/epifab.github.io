@@ -3,7 +3,7 @@ layout: post
 title: Scala, Type classes and Implicits
 subtitle: What is all this about and why should I care?
 date: 2019-01-29 00:00:00 +0000
-tags: [Computer Science, Scala, Type Class, Implcits]
+tags: [Computer Science]
 ---
 
 What is all this about and why should I care?

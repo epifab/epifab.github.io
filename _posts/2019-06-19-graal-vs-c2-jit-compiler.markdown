@@ -3,7 +3,7 @@ layout: post
 title: Graal vs. C2 JIT compiler
 subtitle: How to speed things up
 date: 2019-06-17 00:00:00 +0000
-tags: [Computer Science, Scala, Graal, JVM]
+tags: [Computer Science]
 ---
 
 ## How to speed things up

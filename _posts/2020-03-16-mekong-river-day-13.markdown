@@ -3,6 +3,7 @@ layout: post
 title: Diary from South East Asia
 subtitle: Mekong River, day 13
 date: 2020-03-16 00:00:00 +0000
+img: mekong-river.jpg
 tags: [Travelling]
 ---
 

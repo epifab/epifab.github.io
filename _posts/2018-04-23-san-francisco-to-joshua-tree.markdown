@@ -5,7 +5,7 @@ subtitle: State Route 1, San francisco to joshua via Big Sur
 date: 2018-04-23 00:00:00 +0000
 img: west-coast-road-trip.jpg
 youtube: 2xNM5pe4VFE
-tags: [California]
+tags: [Travelling]
 soundcloud: 240501140
 ---
 
