@@ -3,6 +3,7 @@ layout: post
 title: Locked-down
 subtitle: Diaries from South East Asia - day 22
 date: 2020-03-25 00:00:00 +0000
+img: stuck-in-luang-prabang.png
 tags: [Travelling]
 ---
 
