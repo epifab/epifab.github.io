@@ -3,7 +3,7 @@ layout: post
 title: Insipidi tramonti
 subtitle: pedalando dal mare verso casa
 date: 2020-09-01 00:00:00 +0000
-tags: []
+tags: [Story]
 ---
 
 pedalando dal mare verso casa,

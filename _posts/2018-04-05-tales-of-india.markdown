@@ -4,7 +4,7 @@ title: Tales of India
 subtitle: Johdpur, Rajasthan
 date: 2018-04-05 13:32:20 +0300
 img: jodhpur.jpg
-tags: [Travelling]
+tags: [Travelling, India]
 ---
 Jodhpur, four friends, four european tourists, pale and tired from an
 over 20 hours trip. Not much after they’ve landed from another
