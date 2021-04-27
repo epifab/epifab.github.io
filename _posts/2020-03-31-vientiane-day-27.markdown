@@ -4,7 +4,7 @@ title: Rocket man!
 subtitle: Diaries from South East Asia - day 27
 youtube: DtVBCG6ThDk
 date: 2020-03-31 00:00:00 +0000
-tags: [Travelling, South East Asia]
+tags: [South East Asia]
 ---
 
 Vientiane, day 27.
