@@ -2,7 +2,7 @@
 layout: post
 title: Tomorrow never knows
 subtitle: Diaries from South East Asia - day 12
-date: 2020-03-15 00:00:00 +0000
+date: 2020-03-15
 img: thai-temple.jpg
 tags: [South East Asia]
 ---

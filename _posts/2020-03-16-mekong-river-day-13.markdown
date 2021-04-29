@@ -2,7 +2,7 @@
 layout: post
 title: A dream named Mekong
 subtitle: Diaries from South East Asia - day 13
-date: 2020-03-16 00:00:00 +0000
+date: 2020-03-16
 img: mekong-river.jpg
 tags: [South East Asia]
 ---

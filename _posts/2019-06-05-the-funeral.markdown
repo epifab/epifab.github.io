@@ -2,7 +2,7 @@
 layout: post
 title: The funeral
 subtitle: At the King's head
-date: 2019-01-05 00:00:00 +0000
+date: 2019-01-05
 tags: [Story]
 ---
 
